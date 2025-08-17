@@ -1,12 +1,44 @@
-# React + Vite
+# AI-Journal-App
+Transform your daily diary into an intelligent conversation with the AI-Journal-App, a modern platform designed for deeper self-discovery. This application leverages the power of Google's Gemini API to provide you with insightful prompts, instant summaries, and sentiment analysis, helping you go beyond simple note-taking. Built with a seamless React front-end and securely backed by Firebase for real-time cloud syncing, it offers a truly interactive and reflective journaling experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 📝 **Daily Journal Entries** — Write and save your thoughts effortlessly.
+- 🤖 **AI-Powered Suggestions** — Gemini API generates prompts, summaries, and reflections.
+- 🎭 **Sentiment Insights** — AI detects emotional tone of your entries.
+- 🔐 **Secure Authentication** — Firebase Auth for sign up and login.
+- ☁️ **Cloud Storage & Sync** — Firebase Firestore keeps your entries safe and accessible.
+- 📱 **Responsive Design** — Works seamlessly across desktop and mobile.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+This project is built with a modern, full-stack JavaScript architecture, leveraging powerful services for the frontend, backend, and AI-powered features.
+
+| Category       | Technology       | Description                                                                 |
+|----------------|------------------|-----------------------------------------------------------------------------|
+| 🎨 Frontend    | **React (Vite)** | A declarative, component-based library for building UIs.                    |
+| 💅 Styling     | **Plain CSS**    | Custom styling with Flexbox and Grid for a minimalist design.               |
+| ☁️ Backend     | **Firebase**     | A comprehensive platform for building web and mobile apps.                  |
+| 🔐 Authentication | **Firebase Auth** | Manages secure user sign-up, login, and sessions.                          |
+| 🗃️ Database    | **Firestore**    | A real-time, NoSQL cloud database for storing user data.                    |
+| 🧠 AI          | **Google Gemini API** | Powers the analysis and reflection of journal entries.                     |
+  
+
+---
+
+## Screenshots & Demo
+
+### 🖥️ Web App Preview
+<p align="center">
+  <img src="assets/screenshot1.png" alt="Journal Dashboard" width="600"/>
+</p>
+
+### 📖 AI Journal Entry Example
+<p align="center">
+  <img src="assets/screenshot2.png" alt="AI Generated Prompt" width="600"/>
+</p>
+---
