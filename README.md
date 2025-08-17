@@ -34,11 +34,12 @@ This project is built with a modern, full-stack JavaScript architecture, leverag
 
 ### 🖥️ Web App Preview
 <p align="center">
-  <img src="assets/screenshot1.png" alt="Journal Dashboard" width="600"/>
+  <img src="src/assets/login-page.png" alt="Journal Dashboard" width="600"/>
 </p>
 
 ### 📖 AI Journal Entry Example
 <p align="center">
-  <img src="assets/screenshot2.png" alt="AI Generated Prompt" width="600"/>
+  <img src="src/assets/new-entry.png" alt="AI Generated Prompt" width="600"/>
+  <img src="src/assets/AI-analysis.png" alt="AI Generated Prompt" width="600"/>
 </p>
 ---
